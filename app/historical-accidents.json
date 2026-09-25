@@ -1,0 +1,65 @@
+[
+  {
+    "year": 2023,
+    "type": "Kapal Tenggelam",
+    "placeTime": "Pantai Mutun\n23 Juni 2023",
+    "impact": "- 2 orang MD\n- 1 satu kapal Tenggelam",
+    "source": "Data_Laka_Laut_2023.xlsx"
+  },
+  {
+    "year": 2023,
+    "type": "Orang terjatuh kelaut",
+    "placeTime": "Perairan laut Lab. Maringgai Lam Tim. / 04 Agustus 2023",
+    "impact": "- 1 orang",
+    "source": "Data_Laka_Laut_2023.xlsx"
+  },
+  {
+    "year": 2023,
+    "type": "Orang terseret ombak",
+    "placeTime": "Perairan pantai Rangai / 19 Oktober 2023",
+    "impact": "- 1 orang MD.",
+    "source": "Data_Laka_Laut_2023.xlsx"
+  },
+  {
+    "year": 2024,
+    "type": "Kapal tenggelam",
+    "placeTime": "22 Januari 2024\nPerairan Laut Teladas TuBa.",
+    "impact": "- 1 unit kapal Tenggelam.",
+    "source": "Data_Laka_Laut_2024.xlsx"
+  },
+  {
+    "year": 2024,
+    "type": "Orang jatuh kelaut",
+    "placeTime": "02 Maret 2024\nPerairan laut Selat sunda, Bakauheni Lam-Sel.",
+    "impact": "- 1 orang MD",
+    "source": "Data_Laka_Laut_2024.xlsx"
+  },
+  {
+    "year": 2024,
+    "type": "Kapal kandas",
+    "placeTime": "18 Juni 2024\nPerairan laut Selat Sunda, Pulau Prajurit Bakauheni Lam-sel.",
+    "impact": "- 1 unit kapal mengalami kerusakan",
+    "source": "Data_Laka_Laut_2024.xlsx"
+  },
+  {
+    "year": 2025,
+    "type": "Kapal terbakar",
+    "placeTime": "01 Januari 2025\nDermaga Sumur Bakauheni Lam-sel",
+    "impact": "- 1 unit kapal terbakar habis",
+    "source": "Data_Laka_Laut_2025.xlsx"
+  },
+  {
+    "year": 2025,
+    "type": "Tubrukan Kapal",
+    "placeTime": "16 Maret 2025\nMuara Sungai Mesuji. TUBA.",
+    "impact": "- 1 orang MD\n- 1 orang luka\n- 2 unit speed lidah mengalami kerusakan.",
+    "source": "Data_Laka_Laut_2025.xlsx"
+  },
+  {
+    "year": 2025,
+    "type": "Terseret ombak",
+    "placeTime": "08 Agustus 2025\nPesisir Barat",
+    "impact": "- 1 orang MD",
+    "source": "Data_Laka_Laut_2025.xlsx"
+  }
+]

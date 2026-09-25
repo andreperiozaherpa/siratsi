@@ -1,0 +1,1 @@
+CREATE INDEX `idx_incidents_updated_at` ON `incidents` (`updated_at`);

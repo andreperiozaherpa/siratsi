@@ -1,0 +1,62 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1790218682144,
+      "tag": "0000_remarkable_cloak",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1790218730360,
+      "tag": "0001_early_wolverine",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1790223405708,
+      "tag": "0002_public_captain_flint",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "6",
+      "when": 1790224590349,
+      "tag": "0003_bitter_magus",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "6",
+      "when": 1790225364317,
+      "tag": "0004_outgoing_lizard",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "6",
+      "when": 1790227996939,
+      "tag": "0005_pink_toad",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "6",
+      "when": 1790230094061,
+      "tag": "0006_glamorous_toro",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "6",
+      "when": 1790231091580,
+      "tag": "0007_mighty_mysterio",
+      "breakpoints": true
+    }
+  ]
+}
