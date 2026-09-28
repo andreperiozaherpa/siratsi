@@ -7,7 +7,19 @@ export async function GET(request: Request) {
     const access = await requireAccess();
     if (!access) return NextResponse.json({ error: 'Akses ditolak.' }, { status: 401 });
     const includeInactive = access.role === 'super_admin' && new URL(request.url).searchParams.get('includeInactive') === '1';
-    const { results } = await env.DB!.prepare(`SELECT id,name,kind,detail,active FROM stakeholder_directory ${includeInactive ? '' : 'WHERE active = 1'} ORDER BY kind,name`).all();
+    const { results } = await env.DB!.prepare(`SELECT id,name,kind,detail,active FROM stakeholder_directory ${includeInactive ? '' : 'WHERE active = 1'}
+      ORDER BY CASE kind WHEN 'internal' THEN 0 ELSE 1 END,
+        CASE name
+          WHEN 'Direktur Polairud' THEN 1
+          WHEN 'Wadir Polairud' THEN 2
+          WHEN 'Kabagbinopsnal' THEN 3
+          WHEN 'Kasubbagrenmin' THEN 4
+          WHEN 'Kasubditgakkum' THEN 5
+          WHEN 'Kasubditpolairud' THEN 6
+          WHEN 'Kasubditfasharkan' THEN 7
+          ELSE 999
+        END,
+        name`).all();
     return NextResponse.json({ entries: results, canManage: access.role === 'super_admin' }, { headers: { 'Cache-Control': 'private, no-store' } });
   } catch (error) {
     console.error('Load stakeholder directory failed', error);

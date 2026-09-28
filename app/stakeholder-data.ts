@@ -1,22 +1,19 @@
 export const internalUnits = [
   { name: 'Direktur Polairud', detail: 'Pengarah / pengendali umum' },
   { name: 'Wadir Polairud', detail: 'Koordinator pelaksanaan' },
-  { name: 'Subbagrenmin', detail: 'Administrasi dan logistik' },
-  { name: 'Kabagbinops', detail: 'Operasional dan pengendalian' },
-  { name: 'Kabagdal', detail: 'Pemantauan dan pengawasan' },
-  { name: 'Kabaglog', detail: 'Dukungan sarana prasarana' },
-  { name: 'Sat Polairud Polres Jajaran', detail: 'Pelaksanaan lapangan' },
+  { name: 'Kabagbinopsnal', detail: 'Operasional dan pengendalian' },
+  { name: 'Kasubbagrenmin', detail: 'Administrasi dan logistik' },
+  { name: 'Kasubditgakkum', detail: 'Penegakan hukum perairan' },
+  { name: 'Kasubditpolairud', detail: 'Operasi dan patroli perairan' },
+  { name: 'Kasubditfasharkan', detail: 'Fasilitas pemeliharaan dan perbaikan kapal' },
 ] as const;
 
 export const externalDetails: Record<string, string> = {
   DKP: 'Data perikanan dan kebijakan',
   PSDKP: 'Pengawasan sumber daya kelautan',
-  'TNI AL': 'Dukungan operasi dan keamanan laut',
   Basarnas: 'Operasi pencarian dan pertolongan',
   KSOP: 'Lalu lintas dan keselamatan kapal',
   KPLP: 'Pengawasan pelayaran',
-  'Bea Cukai': 'Pengawasan barang',
-  'Pemerintah Daerah': 'Koordinasi wilayah',
 };
 
 export const stakeholderRoles = ['Koordinator', 'Pelaksana', 'Penyedia Data', 'Penindakan', 'Dukungan SAR', 'Pemantauan', 'Logistik', 'Lainnya'] as const;

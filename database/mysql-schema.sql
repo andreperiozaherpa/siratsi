@@ -32,19 +32,16 @@ CREATE TABLE IF NOT EXISTS stakeholder_directory (
 INSERT IGNORE INTO stakeholder_directory (id,name,kind,detail,active,created_at,updated_at) VALUES
 ('a2e070c1-6523-4dce-8d11-000000000001','Direktur Polairud','internal','Pengarah / pengendali umum',1,UTC_TIMESTAMP(),UTC_TIMESTAMP()),
 ('a2e070c1-6523-4dce-8d11-000000000002','Wadir Polairud','internal','Koordinator pelaksanaan',1,UTC_TIMESTAMP(),UTC_TIMESTAMP()),
-('a2e070c1-6523-4dce-8d11-000000000003','Subbagrenmin','internal','Administrasi dan logistik',1,UTC_TIMESTAMP(),UTC_TIMESTAMP()),
-('a2e070c1-6523-4dce-8d11-000000000004','Kabagbinops','internal','Operasional dan pengendalian',1,UTC_TIMESTAMP(),UTC_TIMESTAMP()),
-('a2e070c1-6523-4dce-8d11-000000000005','Kabagdal','internal','Pemantauan dan pengawasan',1,UTC_TIMESTAMP(),UTC_TIMESTAMP()),
-('a2e070c1-6523-4dce-8d11-000000000006','Kabaglog','internal','Dukungan sarana prasarana',1,UTC_TIMESTAMP(),UTC_TIMESTAMP()),
-('a2e070c1-6523-4dce-8d11-000000000007','Sat Polairud Polres Jajaran','internal','Pelaksanaan lapangan',1,UTC_TIMESTAMP(),UTC_TIMESTAMP()),
+('a2e070c1-6523-4dce-8d11-000000000003','Kabagbinopsnal','internal','Operasional dan pengendalian',1,UTC_TIMESTAMP(),UTC_TIMESTAMP()),
+('a2e070c1-6523-4dce-8d11-000000000004','Kasubbagrenmin','internal','Administrasi dan logistik',1,UTC_TIMESTAMP(),UTC_TIMESTAMP()),
+('a2e070c1-6523-4dce-8d11-000000000005','Kasubditgakkum','internal','Penegakan hukum perairan',1,UTC_TIMESTAMP(),UTC_TIMESTAMP()),
+('a2e070c1-6523-4dce-8d11-000000000006','Kasubditpolairud','internal','Operasi dan patroli perairan',1,UTC_TIMESTAMP(),UTC_TIMESTAMP()),
+('a2e070c1-6523-4dce-8d11-000000000007','Kasubditfasharkan','internal','Fasilitas pemeliharaan dan perbaikan kapal',1,UTC_TIMESTAMP(),UTC_TIMESTAMP()),
 ('a2e070c1-6523-4dce-8d11-000000000008','DKP','external','Data perikanan dan kebijakan',1,UTC_TIMESTAMP(),UTC_TIMESTAMP()),
 ('a2e070c1-6523-4dce-8d11-000000000009','PSDKP','external','Pengawasan sumber daya kelautan',1,UTC_TIMESTAMP(),UTC_TIMESTAMP()),
-('a2e070c1-6523-4dce-8d11-000000000010','TNI AL','external','Dukungan operasi dan keamanan laut',1,UTC_TIMESTAMP(),UTC_TIMESTAMP()),
 ('a2e070c1-6523-4dce-8d11-000000000011','Basarnas','external','Operasi pencarian dan pertolongan',1,UTC_TIMESTAMP(),UTC_TIMESTAMP()),
 ('a2e070c1-6523-4dce-8d11-000000000012','KSOP','external','Lalu lintas dan keselamatan kapal',1,UTC_TIMESTAMP(),UTC_TIMESTAMP()),
-('a2e070c1-6523-4dce-8d11-000000000013','KPLP','external','Pengawasan pelayaran',1,UTC_TIMESTAMP(),UTC_TIMESTAMP()),
-('a2e070c1-6523-4dce-8d11-000000000014','Bea Cukai','external','Pengawasan barang',1,UTC_TIMESTAMP(),UTC_TIMESTAMP()),
-('a2e070c1-6523-4dce-8d11-000000000015','Pemerintah Daerah','external','Koordinasi wilayah',1,UTC_TIMESTAMP(),UTC_TIMESTAMP());
+('a2e070c1-6523-4dce-8d11-000000000013','KPLP','external','Pengawasan pelayaran',1,UTC_TIMESTAMP(),UTC_TIMESTAMP());
 
 CREATE TABLE IF NOT EXISTS user_stakeholders (
   user_id VARCHAR(36) NOT NULL, stakeholder_id VARCHAR(36) NOT NULL,
